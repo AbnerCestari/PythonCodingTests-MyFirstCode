@@ -1,5 +1,3 @@
-#This is my first code in Python, I have made many modifications since its conception. Please check previous versions.
-
 #Ingredients list
 ingredients = {
     "Extra Patty": 8.00,
@@ -25,9 +23,7 @@ beverages = {
     "Juice": 4.00,
     "Energy Drink": 6.00,
     "Beer": 8.00,
-    "Milkshake": 8.00,
-    "Italian Soda": 9.00,
-    "Eggnog": 15.00
+    "Milkshake": 8.00
 }
 
 #Function to the take the customer's burger order

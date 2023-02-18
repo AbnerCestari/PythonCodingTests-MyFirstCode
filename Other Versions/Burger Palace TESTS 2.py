@@ -1,5 +1,3 @@
-#This is my first code in Python, I have made many modifications since its conception. Please check previous versions.
-
 #Ingredients list
 ingredients = {
     "Extra Patty": 8.00,
@@ -25,9 +23,7 @@ beverages = {
     "Juice": 4.00,
     "Energy Drink": 6.00,
     "Beer": 8.00,
-    "Milkshake": 8.00,
-    "Italian Soda": 9.00,
-    "Eggnog": 15.00
+    "Milkshake": 8.00
 }
 
 #Function to the take the customer's burger order
@@ -39,7 +35,7 @@ def take_order():
         print(f"{ingredient}: ${price}")
     print()
 
-    #Prompt the customer to choose the ingredients
+    # Prompt the customer to choose the ingredients
     while True:
         ingredient = input("Please choose an ingredient and type 'done' if your burger is complete: ").lower()
         if ingredient == "done":
@@ -62,7 +58,7 @@ def get_beverage():
     total = 0.0
     drinks = []
 
-    #Prompt the customer to choose a beverage
+    # Prompt the customer to choose a beverage or indicate they do not want any beverages
     while True:
 
         print("Great! These are the beverages available:\n")
