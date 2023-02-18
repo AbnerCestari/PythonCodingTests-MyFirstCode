@@ -25,9 +25,7 @@ beverages = {
     "Juice": 4.00,
     "Energy Drink": 6.00,
     "Beer": 8.00,
-    "Milkshake": 8.00,
-    "Italian Soda": 9.00,
-    "Eggnog": 15.00
+    "Milkshake": 8.00
 }
 
 #Function to the take the customer's burger order
