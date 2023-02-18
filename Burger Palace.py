@@ -16,6 +16,7 @@ ingredients = {
     "Tomato Slices": 0.70,
     "BBQ Sauce": 0.50,
     "Special Sauce": 0.50,
+    "Worcester Sauce": 0.75,
     "Mayo": 0.20
 }
 
