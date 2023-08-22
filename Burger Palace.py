@@ -90,7 +90,7 @@ def get_beverage():
 def main():
     order_total = take_order()
     wants_beverage = input("\nWould you like a beverage with your order? (Yes/No): ").lower()
-    if wants_beverage == "yes":
+    if wants_beverage == "yes" or "y":
         beverage_total = get_beverage()
         total = order_total + beverage_total
     else:
